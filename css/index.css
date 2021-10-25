@@ -5,7 +5,12 @@
 
 header{
     font-family: 'Noto Sans', sans-serif;
+
 }
+html {
+    scroll-behavior: smooth;
+
+} 
 body{
     margin: 0;
 }
@@ -94,6 +99,15 @@ ol, p{
     color: white;
     border-bottom: 2px solid;
     max-width: 700px;
+    font-size: 25px;
+    width: 50%;
+}
+.heading-main-text h2{
+    color: white;
+    max-width: 700px;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 30px;
 }
 
 
@@ -102,7 +116,7 @@ ol, p{
 .paragrafh-table-of-my-projects a{
     color: white;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 20px;
     text-align: center;
 }
 
@@ -138,3 +152,30 @@ img{
     box-sizing: border-box;
 }
 
+.paragrafh-table-of-my-projects{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 10px 0px 10px 0px;
+}
+
+.project-title{
+    color: white;
+    text-decoration: none;
+}
+
+.code{
+    color: #303841;
+    transition: color 0.3s ease-out;
+}
+
+
+a{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+a:hover .code{
+    color: #F27B4F;
+}
